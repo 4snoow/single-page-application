@@ -78,12 +78,12 @@ p {
 
 /*HOME SECTION =======================*/
 .home {
-  /* background-image: url(../src/homebg.png);
+  background-image: url(../src/homebg.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; */
+  background-size: cover;
 
-  background-color: black;
+  /* background-color: black; */
 
   position: absolute;
   right: 0;
@@ -180,11 +180,11 @@ p {
 /*UNIVERSE SECTION =======================*/
 
 .universe {
-  /* background-image: url(../src/universebg.png);
+  background-image: url(../src/universebg.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; */
-  background-color: black;
+  background-size: cover;
+  /* background-color: black; */
 
   position: absolute;
   right: 0;
@@ -229,12 +229,12 @@ p {
 
 /*EXPLORATION SECTION =======================*/
 .exploration {
-  /* background-image: url(../src/explorationbg.png);
+  background-image: url(../src/explorationbg.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; */
+  background-size: cover;
 
-  background-color: black;
+  /* background-color: black; */
 
   position: absolute;
   right: 0;
@@ -296,23 +296,36 @@ p {
 
 
 
-@media (max-width: 550px){
+@media (max-width: 570px){
   .universe-content, .exploration-content{
     padding-right: 2rem;
   }
 
   .nav-options{
-    padding-right: 5rem;
-    gap: 1.1rem;
+    gap: 2rem;
+    flex-direction: column;
+    margin: 3rem auto;
   }
 
   .nav-options a{
     white-space: nowrap;
   }
+
+  .home-content, .exploration-content, .universe-content{
+    text-align: center;
+  }
+  
+  .exploration-content, .universe-content{
+    margin: 25rem 2rem;
+  }
+
+  .universe-content p, .exploration-content p{
+    text-align: justify;
+  }
 }
 
 
-@media (min-width: 400px){
+@media (min-width: 300px){
   #explorationVideo,
   #universeVideo,
   #galaxyVideo{

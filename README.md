@@ -20,7 +20,7 @@
 ## Preview
 ![fullProjectScreen](https://user-images.githubusercontent.com/61155055/204929148-5838eecd-dff0-4951-9357-e478bd76ecb7.png)
 
-- - [Deploy](https://single-page-application-five.vercel.app/)
+-[Deploy](https://single-page-application-five.vercel.app/)
 
 ## Tech Stack
 <img src="https://img.shields.io/badge/Css3-05122A?style=flat&logo=css3" alt="css3 Badge" height="25">&nbsp;
